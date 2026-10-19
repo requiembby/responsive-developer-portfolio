@@ -1,30 +1,45 @@
-# Charoskhon Farkhadova | Responsive Developer Portfolio
+# Charoskhon Farkhadova | Systems & Technology
 
-A five-page responsive portfolio website for a Management Information Systems student applying to early-career IT roles. Built with semantic **HTML5**, modern **CSS3**, and lightweight **vanilla JavaScript**. No frameworks, third-party fonts, external images, or build tools required.
+A minimal, one-page **Dark Tech portfolio** for a Management Information Systems student interested in data, information systems and early-career IT opportunities.
 
-> **Creation note:** This is a **new portfolio project created in October 2026 with AI assistance**, not a recovered copy of an earlier university HTML/CSS assignment. Content describing academic work links to the corresponding repositories. Review the implementation and learn how it works before presenting front-end development as an independent skill.
+**[View the website](https://requiembby.github.io/responsive-developer-portfolio/)** · [GitHub](https://github.com/requiembby) · [LinkedIn](https://www.linkedin.com/in/charoskhon-farkhadova-2148a9307/)
 
-## Pages
+## Overview
 
-- `index.html` — homepage, introduction, featured projects, and career focus.
-- `projects.html` — five linked GitHub projects with interactive category filters.
-- `about.html` — educational and professional background.
-- `skills.html` — academic technical foundations, business skills and current coursework.
-- `contact.html` — contact options and links to GitHub/LinkedIn (no backend or submitted data).
+Designed as a calm, professional alternative to the typical neon developer template: near-black surfaces, restrained violet accents, carefully spaced typography and a CSS-built orbit illustration instead of a portrait.
 
-## Features
+The homepage links to **six projects**, and distinguishes academic case studies from newer portfolio demonstrations.
 
-- Responsive CSS layouts for mobile, tablet, and desktop.
-- Working, keyboard-accessible mobile navigation with ARIA state.
-- Dark/light theme switch saved locally (graceful fallback when browser storage is unavailable).
-- Filterable project cards with accessible live status text.
-- Semantic landmarks, skip link, visible focus states, reduced-motion support.
-- CSS-only graphic elements and a custom SVG favicon; no third-party dependencies.
-- Working links to five real, published GitHub repositories.
+- **Work** — MySQL database, Oracle APEX shopping and student apps, SAP case studies, RSA/OpenSSL example, and this site.
+- **Expertise** — technical foundations, ERP/systems knowledge and communication strengths.
+- **About** — education and professional context.
+- **Contact** — GitHub, LinkedIn and email.
+
+## Technology
+
+- Semantic HTML5 and modern CSS3 (grid, flexbox, media queries, subtle glass surfaces).
+- Vanilla JavaScript for responsive navigation, active section indicators and motion-aware reveals.
+- Accessible skip link, keyboard navigation, focus styles and reduced-motion support.
+- No build step, JavaScript framework or backend.
+- Google Fonts are used when available; system fonts provide a fallback.
+- All graphics are drawn in CSS or as a small local SVG favicon. No personal photo.
+
+## Files
+
+```text
+index.html                   Single-page portfolio
+assets/styles.css            Layout, styling, responsive design
+assets/app.js                Navigation, scroll tracking, reveals
+assets/favicon.svg           Custom portfolio mark
+about.html                   Redirects to #about
+projects.html                Redirects to #work
+skills.html                  Redirects to #expertise
+contact.html                 Redirects to #contact
+```
 
 ## Run locally
 
-Open `index.html` in any modern web browser. Alternatively run a development server:
+Open `index.html` in a modern browser, or run:
 
 ```bash
 python -m http.server 8000
@@ -32,29 +47,18 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000/`.
 
-## Publish with GitHub Pages
+## Deploy with GitHub Pages
 
-1. Create a **public repository**, for example `responsive-developer-portfolio`.
-2. Upload all five `.html` files, `README.md`, and the entire `assets/` folder **at the repository root**.
-3. In repository **Settings → Pages**, choose **Deploy from a branch**, `main`, `/ (root)`, and save.
-4. After publishing, your site will be available at `https://requiembby.github.io/responsive-developer-portfolio/` (GitHub Pages availability and deployment status are controlled by GitHub).
+In repository **Settings → Pages**, select **Deploy from a branch**, branch `main`, folder `/ (root)`. GitHub handles deployment. The expected project-page address is:
 
-All internal links and asset paths are relative, so the site also works under a repository subpath.
+https://requiembby.github.io/responsive-developer-portfolio/
 
-## Content and privacy
+## Provenance and scope
 
-- Portfolio links: [GitHub](https://github.com/requiembby) and [LinkedIn](https://www.linkedin.com/in/charoskhon-farkhadova-2148a9307/).
-- Contact includes a public-facing email address from the author's existing CV.
-- The site makes no claims of professional front-end engineering experience, production deployment, or a completed prior HTML/CSS final assignment.
-- The academic projects use their own repository scope notes; some are documentation-led case studies rather than executable apps.
+Created as an **independent portfolio exercise in October 2026 with AI assistance**. It is **not** the recovered source of a prior university HTML/CSS assignment. Portfolio descriptions refer to academic and training projects; see their individual repositories for evidence, scope and limitations. It should not be taken as proof of full-time frontend development employment.
 
-## Suggested next improvements
-
-- Add verified screenshots of the site on mobile and desktop.
-- Run an automated accessibility audit and fix any reported issues.
-- Add a resume download after final review and removal of private information.
-- Keep the linked repositories updated with verified source code where available.
+There are no forms collecting visitor data, and no API keys or private university credentials in the website source.
 
 ## License
 
-No license has been granted. All rights reserved by the author unless a separate license is added.
+No license has been granted; all rights reserved unless the author chooses one later.
