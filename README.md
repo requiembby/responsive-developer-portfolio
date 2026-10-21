@@ -8,10 +8,10 @@ A minimal, one-page **Dark Tech portfolio** for a Management Information Systems
 
 Designed as a calm, professional alternative to the typical neon developer template: near-black surfaces, restrained violet accents, carefully spaced typography and a CSS-built orbit illustration instead of a portrait.
 
-The homepage links to **six projects**, and distinguishes academic case studies from newer portfolio demonstrations.
+The homepage links to **seven projects**, and distinguishes academic case studies from newer portfolio demonstrations.
 
-- **Work** — MySQL database, Oracle APEX shopping and student apps, SAP case studies, RSA/OpenSSL example, and this site.
-- **Expertise** — technical foundations, ERP/systems knowledge and communication strengths.
+- **Work** — MySQL database, Oracle APEX shopping and student apps, SAP case studies, RSA/OpenSSL example, **[REQUIEM SecretGuard](https://github.com/requiembby/requiem-secretguard)** security scanner, and this site.
+- **Expertise** — technical foundations, Python security tooling, ERP/systems knowledge and communication strengths.
 - **About** — education and professional context.
 - **Contact** — GitHub, LinkedIn and email.
 
