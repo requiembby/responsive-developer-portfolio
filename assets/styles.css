@@ -198,3 +198,6 @@ button,a{-webkit-tap-highlight-color:transparent}
 }
 @media (max-width:390px){.hero h1{font-size:44px}.eyebrow{font-size:8px}.hero-art{height:340px}.orbit-outer{width:280px;height:280px}.orbit-middle{width:220px;height:220px}.orbit-inner{width:155px;height:155px}.panel-top{left:-1px;top:5%}.panel-bottom{right:-2px;bottom:3%}.metric-note p{font-size:9px}.schema-nodes{gap:3px}.schema-nodes span{padding:10px 2px;font-size:7px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}[data-reveal].not-visible{opacity:1;transform:none}}
+/* Actual REQUIEM Archive desktop screenshot, kept within the existing card layout. */
+.archive-graphic img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#15101f}
+.archive-graphic::after{display:none}

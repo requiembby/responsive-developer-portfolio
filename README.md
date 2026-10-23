@@ -8,9 +8,9 @@ A minimal, one-page **Dark Tech portfolio** for a Management Information Systems
 
 Designed as a calm, professional alternative to the typical neon developer template: near-black surfaces, restrained violet accents, carefully spaced typography and a CSS-built orbit illustration instead of a portrait.
 
-The homepage links to **seven projects**, and distinguishes academic case studies from newer portfolio demonstrations.
+The homepage links to **eight projects**, and distinguishes academic case studies from newer portfolio demonstrations.
 
-- **Work** — MySQL database, Oracle APEX shopping and student apps, SAP case studies, RSA/OpenSSL example, **[REQUIEM SecretGuard](https://github.com/requiembby/requiem-secretguard)** security scanner, and this site.
+- **Work** — MySQL database, Oracle APEX shopping and student apps, SAP case studies, RSA/OpenSSL example, **[REQUIEM SecretGuard](https://github.com/requiembby/requiem-secretguard)** security scanner, **[REQUIEM Archive](https://github.com/requiembby/requiem-archive)** desktop archive recovery, and this site.
 - **Expertise** — technical foundations, Python security tooling, ERP/systems knowledge and communication strengths.
 - **About** — education and professional context.
 - **Contact** — GitHub, LinkedIn and email.
@@ -31,6 +31,7 @@ index.html                   Single-page portfolio
 assets/styles.css            Layout, styling, responsive design
 assets/app.js                Navigation, scroll tracking, reveals
 assets/favicon.svg           Custom portfolio mark
+assets/requiem-archive.png    REQUIEM Archive desktop screenshot
 about.html                   Redirects to #about
 projects.html                Redirects to #work
 skills.html                  Redirects to #expertise
